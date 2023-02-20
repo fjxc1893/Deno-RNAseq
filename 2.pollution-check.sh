@@ -1,0 +1,1 @@
+blastn -query sample.5w.fa -db nt -outfmt '6 staxids qseqid sseqid pident length mismathch gapopen qstart qend sstart send evalue bitscore qcovs' -evalue 1e-10 -max_target_seqs 1 -out sample.5w.nt.txt -num_threads 8

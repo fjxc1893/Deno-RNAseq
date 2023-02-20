@@ -1,0 +1,2 @@
+#Trinity: 2.4.0
+Trinity --seqType fq --min_contig_length 300 --max_memory 150G --left sample.R1.fq.gz --right sample.R2.fq.gz --SS_lib_type RF --output output --CPU 32 --KMER_SIZE 32 --min_kmer_cov 6 --min_glue 6 
